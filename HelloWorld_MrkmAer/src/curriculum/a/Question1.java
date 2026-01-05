@@ -30,59 +30,52 @@ public class Question1 {
 		longNum = 10000;
 		
 		// float型の変数floatNumの初期値を設定
-		float floatNum = 0;
+		float floatNum = 0.0f;
 		// 変数floatNumに9.5fを代入
 		floatNum = 9.5f;
 		
 		// double型の変数doubleNumの初期値を設定
-		double doubleNum = 0;
+		double doubleNum = 0.0;
 		// 変数doubleNumに10.5を代入
 		doubleNum = 10.5;
 		
 		// char型の変数letterの初期値を設定
-		char letter = '0';
+		char letter = '\u0000';
 		// 変数letterにaを代入
 		letter = 'a';
 		
 		// String型の変数lettersの初期値を設定
-		String letters = "";
+		String letters = "null";
 		// 変数lettersにハローを代入
 		letters = "ハロー";
 		
 		// boolean型の変数Booleanの初期値を設定
-		boolean Boolean;
+		boolean Boolean = false;
 		// 変数Booleanにtrueを代入
 		Boolean = true;
 		
 		
 		// Q3:値を代入した変数を用いて出力をしてください。
-		intNum = 11110;
 		// 11110を出力
-		System.out.println(intNum);
+		System.out.println(longNum + intNum + shortNum +  byteNum );
 		
 		// 20を出力
-		byteNum = 20;
-		System.out.println(byteNum);
+		System.out.println(byteNum * 2);
 		
 		// a ハロー trueを出力
-		letters = "a ハロー true";
-		System.out.println(letters);
+		System.out.println(letter + letters + Boolean );
 		
 		// 11130 数字を全て足して出力
-		byteNum = 1 + 1 + 1 + 3 + 0;
-		System.out.println(byteNum);
+		System.out.println(longNum + intNum + shortNum +  byteNum * 3);
 		
 		//小数点以外の数字を全てかけて出力
-		longNum = 11110 * 20 * 11130 * 10000000000L * -90;
-		System.out.println(longNum);
+		System.out.println(longNum * intNum * shortNum *  byteNum);
 		
 		// 10.5割る100をして出力
-		doubleNum = 10.5 / 100;
-		System.out.println(doubleNum);
+		System.out.println(doubleNum / shortNum);
 		
 		// 10引く100をして出力
-		byteNum = 10 - 100;
-		System.out.println(byteNum);
+		System.out.println(byteNum - shortNum);
 		
 		
 		/* Q4:nameというString型の変数を宣言しその変数に"山田太郎"という値を代入してください。
